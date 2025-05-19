@@ -1,6 +1,8 @@
 import os
 
-folder = 'C:\\Users\\Megan\\Documents\\Coding'
+# Uses script's current folder as path
+folder = os.path.dirname(os.path.abspath(__file__))
+
 for filename in os.listdir(folder):
     if filename.endswith('.txt'):
         # print(f"Found text file: {filename}")
