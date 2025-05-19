@@ -30,3 +30,5 @@ Renames all `.txt` files in a specified folder by appending `_backup` to each fi
 
 1. Clone the repository:
    ```bash
+   git clone https://github.com/mgnleanne/automation-scripts.git
+   cd automation-scripts
